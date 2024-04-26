@@ -85,6 +85,51 @@ body {
   padding: 20px;
   float: left;
 }
+.skills h2{
+  margin-top: 587px;
+  text-align: center;
+}
+.skill-set{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+.skill-set .box{
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner-1,.inner-2{
+  display: flex;
+}
+.box img{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding-top: 10px;
+}
+.box span{
+  font-size: 20px;
+  color: rgb(59, 57, 57);
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.box:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 3px solid rgb(59, 57, 57);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(59, 57, 57);
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 20px 60px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
