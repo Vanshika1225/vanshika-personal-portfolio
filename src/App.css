@@ -48,7 +48,43 @@ body {
 .resume {
   padding: 15px 20px;
 }
+.resume button {
+  color: white;
+  background-color: black;
+  padding: 12px;
+  border-radius: 10px;
+}
 
+.left {
+  float: left;
+  width: 479px;
+}
+.right {
+  float: right;
+}
+.right img {
+  margin-top: -57px;
+  width: 598px;
+}
+.left h3 {
+  margin-top: 187px;
+  text-align: start;
+  margin-left: 13px;
+}
+.left h3 span {
+  font-size: 20px;
+  color: rgb(59, 57, 57);
+}
+.home-logo{
+  border: 2px solid black;
+}
+.home-logo a img {
+  text-align: start;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  float: left;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
