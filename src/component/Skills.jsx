@@ -35,7 +35,7 @@ const Skills = () => {
           </div>
         </div>
         <div className='skill-set'>
-        <div className='inner-2'>
+          <div className='inner-2'>
             <div className='box'>
               <img src={css} alt='' />
               <span>CSS</span>
