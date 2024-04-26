@@ -14,8 +14,8 @@ const Hero = () => {
                         <span> Frontend Technologies like HTML5 , CSS3 , Javascript and ReactJs</span>
                     </h3>
                     <div className="home-logo">
-                        <a href="https://www.instagram.com/"><img src={instaImage} style={{width:"45px"}} alt='insta image' /></a>
-                        <a href="https://www.linkedin.com/in/vanshika-04769721b/"><img src={linkedIn} style={{height:"38px"}} alt='linked image' /></a>
+                        <a href="https://www.instagram.com/"><img src={instaImage} style={{ width: "45px" }} alt='insta image' /></a>
+                        <a href="https://www.linkedin.com/in/vanshika-04769721b/"><img src={linkedIn} style={{ height: "38px" }} alt='linked image' /></a>
                         <a href="https://github.com/Vanshika1225"><img src={githubimages} alt='github image' /></a>
                         <a href="https://mail.google.com/mail/u/"><img src={mail} alt='mail image' /></a>
                     </div>

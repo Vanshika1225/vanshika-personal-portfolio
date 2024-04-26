@@ -6,7 +6,7 @@ const Experiene = () => {
     <>
       <div className='experience-sectin'>
         <h3>My Experience</h3>
-        <div>
+        <div>                              
           <div className='experience-content'>
             <div className='content-box'>
               <div className='content-text'>

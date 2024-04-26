@@ -13,8 +13,8 @@ const Skills = () => {
   return (
     <>
       <div className='skills'>
-        <h2>My Skills</h2>
         <div className='skill-set'>
+        <h2>My Skills</h2>
           <div className='inner-1'>
             <div className='box'>
               <img src={Cplus} alt='' />

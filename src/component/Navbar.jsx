@@ -20,7 +20,7 @@ const Navbar = () => {
                     <ul>
                         <li className='li'>
                             <Link className='Link' to="/About"> About me</Link>
-                            <Link className='Link' to="/Contact">Contact</Link>
+                            <Link className='Link' to="/Skills">Skills</Link>
                             <Link className='Link' to="/Projects">Projects</Link>
                         </li>
                     </ul>

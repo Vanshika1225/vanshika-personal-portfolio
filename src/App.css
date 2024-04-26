@@ -64,7 +64,8 @@ body {
 }
 .right img {
   margin-top: -57px;
-  width: 598px;
+  width: 650px;
+  margin-right: -70px;
 }
 .left h3 {
   margin-top: 187px;
@@ -86,11 +87,11 @@ body {
   float: left;
 }
 .skills h2 {
-  margin-top: 587px;
   text-align: center;
 }
 .skill-set {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 1000px;
 }
@@ -98,7 +99,7 @@ body {
   border: 3px solid black;
   width: 100px;
   height: 100px;
-  margin: 20px 60px;
+  margin: 20px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
