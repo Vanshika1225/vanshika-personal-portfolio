@@ -28,7 +28,8 @@ const Navbar = () => {
                 <div className='resume'>
                     <button onClick={() => handleDownloadResume()}>
                         <Link to="/Resume" style={{color:"white",textDecoration:'none'}}>
-                            Resume  ↓
+                            {/* Resume  ↓ */}
+                            Resume
                         </Link>
                     </button>
                 </div>
