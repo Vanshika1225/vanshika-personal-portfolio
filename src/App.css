@@ -86,53 +86,6 @@ body {
   padding: 20px;
   float: left;
 }
-.skills h2 {
-  text-align: center;
-}
-.skill-set {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1000px;
-}
-.skill-set .box {
-  border: 3px solid black;
-  width: 100px;
-  height: 100px;
-  margin: 20px 70px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.inner-1,
-.inner-2 {
-  display: flex;
-  margin-bottom: 30px;
-}
-.box img {
-  width: 50px;
-  height: 50px;
-  margin: auto;
-  padding-top: 10px;
-}
-.box span {
-  font-size: 20px;
-  color: rgb(59, 57, 57);
-  text-align: center;
-  margin-top: 10px;
-  padding-bottom: 10px;
-}
-.box:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: 3px solid rgb(59, 57, 57);
-  background-color: rgba(255, 255, 255, 0.5);
-  color: rgb(59, 57, 57);
-  cursor: pointer;
-  border-radius: 10px;
-  margin: 20px 60px;
-}
 .experience-sectin {
   background-color: black;
   color: white;
@@ -190,6 +143,63 @@ body {
 
 .App-link {
   color: #61dafb;
+}
+.skills h2{
+  margin-top: 593px;
+}
+.skills-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.skill-card {
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  height: fit-content;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 20px; /* Add margin to separate icon from text */
+  transition: all 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.skill-info {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  max-height: 0; /* Initially hide content */
+  overflow: hidden; /* Hide overflowing content */
+  transition: max-height 0.3s ease; /* Add transition for smooth expansion */
+}
+
+.skill-card:hover .skill-info {
+  opacity: 1;
+  max-height: 1000px; 
+}
+
+.skill-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.skill-info p {
+  font-size: 0.9rem;
+  color: #555;
 }
 
 @keyframes App-logo-spin {

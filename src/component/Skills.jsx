@@ -1,62 +1,35 @@
 import React from 'react';
 import '../App.css';
-import Cplus from '../images/c++.png'
-import java from '../images/java.png'
-import react from '../images/react.jpg'
-import html from '../images/html.jpg'
-import css from '../images/css.png'
-import git from '../images/git.png'
-import js from '../images/js.png'
-import dsa from '../images/dsa.png'
+import { FaCode, FaJava, FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaJs, FaChartLine } from 'react-icons/fa';
+
+const skillsData = [
+  { id: 1, name: 'C++', icon: <FaCode />, description: 'C++ is a powerful general-purpose programming language.' },
+  { id: 2, name: 'JAVA', icon: <FaJava />, description: 'Java is a high-level programming language.' },
+  { id: 3, name: 'React', icon: <FaReact />, description: 'React is a JavaScript library for building user interfaces.' },
+  { id: 4, name: 'HTML', icon: <FaHtml5 />, description: 'HTML is the standard markup language for creating web pages.' },
+  { id: 5, name: 'CSS', icon: <FaCss3Alt />, description: 'CSS is a style sheet language used for describing the presentation of a document written in HTML.' },
+  { id: 6, name: 'Git', icon: <FaGitAlt />, description: 'Git is a distributed version control system.' },
+  { id: 7, name: 'JavaScript', icon: <FaJs />, description: 'JavaScript is a programming language that enables interactive web pages.' },
+  { id: 8, name: 'Data Structures & Algorithms', icon: <FaChartLine />, description: 'DSA stands for Data Structures and Algorithms.' },
+];
 
 const Skills = () => {
   return (
-    <>
-      <div className='skills'>
-        <div className='skill-set'>
-        <h2>My Skills</h2>
-          <div className='inner-1'>
-            <div className='box'>
-              <img src={Cplus} alt='' />
-              <span>C++</span>
-            </div>
-            <div className='box'>
-              <img src={java} alt='' />
-              <span>JAVA</span>
-            </div>
-            <div className='box'>
-              <img src={react} alt='' />
-              <span>React</span>
-            </div>
-            <div className='box'>
-              <img src={html} alt='' />
-              <span>HTML</span>
+    <div className='skills'>
+      <h2>My Skills</h2>
+      <div className='skills-grid'>
+        {skillsData.map(skill => (
+          <div className='skill-card' key={skill.id}>
+            <div className='skill-icon'>{skill.icon}</div>
+            <div className='skill-info'>
+              <h3>{skill.name}</h3>
+              <p>{skill.description}</p>
             </div>
           </div>
-        </div>
-        <div className='skill-set'>
-          <div className='inner-2'>
-            <div className='box'>
-              <img src={css} alt='' />
-              <span>CSS</span>
-            </div>
-            <div className='box'>
-              <img src={git} alt='' />
-              <span>Git</span>
-            </div>
-            <div className='box'>
-              <img src={dsa} alt='' />
-              <span>DSA</span>
-            </div>
-            <div className='box'>
-              <img src={js} alt='' />
-              <span>Javascript</span>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;
