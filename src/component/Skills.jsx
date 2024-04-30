@@ -16,7 +16,9 @@ const skillsData = [
 const Skills = () => {
   return (
     <div className='skills'>
+      <div style={{alignItems:'center'}}>
       <h2>My Skills</h2>
+      </div>
       <div className='skills-grid'>
         {skillsData.map(skill => (
           <div className='skill-card' key={skill.id}>

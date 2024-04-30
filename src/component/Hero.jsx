@@ -8,7 +8,7 @@ import mail from '../images/mail.png';
 const Hero = () => {
     return (
         <>
-            <div className='container'>
+            <div className='hero'>
                 <div className="left">
                     <h3> Hi, My name is <span>Vanshika </span>
                         And I have a good command in
