@@ -3,7 +3,7 @@ import React from 'react'
 const Education = () => {
   return (
     <div id='education'>
-        <h3>Qualification</h3>
+        <h1>Qualification</h1>
     </div>
   )
 }

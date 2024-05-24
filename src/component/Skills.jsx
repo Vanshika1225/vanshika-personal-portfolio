@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div className='skills'>
       <div style={{alignItems:'center'}}>
-      <h2>My Skills</h2>
+      <h1>My Skills</h1>
       </div>
       <div className='skills-grid'>
         {skillsData.map(skill => (

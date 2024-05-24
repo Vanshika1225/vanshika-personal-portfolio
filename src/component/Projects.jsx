@@ -29,7 +29,7 @@ const Projects = () => {
     <div>
       <div className='container' id='projects'>
         <div>
-          <h2>My Projects</h2>
+          <h1>My Projects</h1>
         </div>
         <div className='project-section'>
           <div className='project-content' onMouseEnter={showSeeDetailsButton1} onMouseLeave={hideSeeDetailButton1}>

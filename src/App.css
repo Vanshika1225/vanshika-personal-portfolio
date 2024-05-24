@@ -50,6 +50,7 @@ body {
   text-decoration: none;
   padding: 0px 20px;
   color: black;
+  cursor: pointer;
 }
 
 .resume {
@@ -90,6 +91,13 @@ body {
   height: 523px;
 }
 .home-logo a img {
+  text-align: start;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  float: left;
+}
+.home-logo img {
   text-align: start;
   width: 30px;
   height: 30px;

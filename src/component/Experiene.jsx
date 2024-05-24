@@ -4,8 +4,8 @@ import webmob from '../images/webmob.png'
 const Experiene = () => {
   return (
     <>
-      <div className='experience-sectin' id='experiene'>
-        <h3>My Experience</h3>
+      <div className='experience-sectin' id='experience'>
+        <h1>My Experience</h1>
         <div>                              
           <div className='experience-content'>
             <div className='content-box'>
