@@ -5,16 +5,14 @@ import logo from '../images/Cover.jpg';
 import jsPDF from 'jspdf';
 import '../App.css';
 import resumeImage from '../images/Resume1.png';
-
+import '../css/navbar.css'
 const Navbar = () => {
   const handleDownloadPDF = () => {
     const pdf = new jsPDF('p', 'mm', 'a4');
     const img = new Image();
     img.src = resumeImage;
     img.onload = () => {
-      const imgWidth = pdf.internal.pageSize.getWidth();
-      const imgHeight = (img.height * imgWidth) / img.width;
-      pdf.addImage(img, 'PNG', 0, 0, imgWidth, imgHeight);
+      pdf.addImage(img, 'PNG', 0, 0);
       pdf.save('downloaded-file.pdf');
     };
   };

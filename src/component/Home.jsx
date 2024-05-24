@@ -16,7 +16,6 @@ const Home = () => {
       <Projects/>
       <Education/>
       <Experiene />
-      {/* <Education /> */}
     </div>
   )
 }

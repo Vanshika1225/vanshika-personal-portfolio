@@ -4,7 +4,7 @@ import instaImage from '../images/insta.webp';
 import linkedIn from '../images/linkedin.png';
 import githubimages from '../images/github.png';
 import mail from '../images/mail.png';
-
+import '../css/hero.css'
 const Hero = () => {
     const sendMail = () => {
         const recipientEmail = 'vanshika.rbu@gmail.com';

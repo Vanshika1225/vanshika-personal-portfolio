@@ -1,6 +1,7 @@
 import React from 'react'
 import rbu from '../images/rbu.png'
 import webmob from '../images/webmob.png'
+import '../css/experience.css'
 const Experiene = () => {
   return (
     <>

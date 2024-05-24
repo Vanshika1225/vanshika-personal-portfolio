@@ -3,7 +3,7 @@ import newsman from '../images/newsman.jpg';
 import quizapp from '../images/images.jpg';
 import LinkIcon from '../images/icon.png';
 
-import '../App.css'
+import '../css/project.css'
 const Projects = () => {
   const [showButton1, setShowButton1] = useState(false);
   const [showButton2, setShowButton2] = useState(false);

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../css/skills.css';
 import { FaCode, FaJava, FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaJs, FaChartLine } from 'react-icons/fa';
 
 const skillsData = [
