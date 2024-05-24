@@ -13,17 +13,17 @@ const About = () => {
         <div className='about-right'>
           <div className='about'>
             <div className='about-card'>
-              <i class="bi bi-lightbulb"></i>
+              <i className="bi bi-lightbulb"></i>
               <span>3 Star</span>
               <span>Leetode</span>
             </div>
             <div className='about-card'>
-              <i class="bi bi-lightbulb"></i>
+              <i className="bi bi-lightbulb"></i>
               <span>Advance</span>
               <span>in React Js</span>
             </div>
             <div className='about-card'>
-              <i class="bi bi-lightbulb"></i>
+              <i className="bi bi-lightbulb"></i>
               <span>1K+</span>
               <span>GeekForGeek</span>
             </div>
