@@ -18,7 +18,7 @@ const Skills = () => {
     <div className='skills'>
       <div style={{ alignItems: 'center' }}>
         <h1>My Skills</h1>
-        <p>Things I know</p>
+        <p className='class-para'>Things I know</p>
       </div>
       <div className='skills-grid'>
         {skillsData.map(skill => (

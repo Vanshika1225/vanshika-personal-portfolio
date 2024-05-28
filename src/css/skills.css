@@ -55,3 +55,12 @@
   font-size: 0.9rem;
   color: #555;
 }
+
+.skills p{
+  margin-bottom: 40px;
+}
+
+.class-para{
+  margin-top: -20px;
+  margin-bottom: 40px;
+}

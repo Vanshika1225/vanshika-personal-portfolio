@@ -55,3 +55,8 @@
   text-align: start;
   padding: 30px;
 }
+
+#projects p{
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
