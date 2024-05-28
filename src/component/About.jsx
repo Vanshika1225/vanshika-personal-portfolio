@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div id='about'>
       <h1>About Me</h1>
+      <p className='para'>My Introduction</p>
       <div className='about'>
         <div className='left-about'>
           <img src={aboutImg} alt="" style={{ height: '350px' }} />
@@ -28,7 +29,7 @@ const About = () => {
               <span>GeekForGeek</span>
             </div>
           </div>
-          <div> <p>Coding wizard with a love for the stars ✨ and football ⚽. Guitar virtuoso on the side. A true team player, bringing tech-savvy and eclectic passions to the table.</p></div>
+          <div className='para'> <p>Coding wizard with a love for the stars ✨ and seeking knowledge. A true team mate, bringing tech-savvy and eclectic passions to the table.</p></div>
         </div>
       </div>
     </div>

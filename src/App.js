@@ -5,8 +5,6 @@ import About from "./component/About";
 import Skills from "./component/Skills";
 import Experiene from "./component/Experiene";
 import Projects from "./component/Projects";
-import Resme from "./component/Resme";
-
 function App() {
   return (
     <div className="App">
@@ -17,7 +15,6 @@ function App() {
           <Route path="/Skills" element={<Skills />}></Route>
           <Route path="/Experiene" element={<Experiene />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
-          <Route path="/Resume" element={<Resme/>}/>
         </Routes>
       </BrowserRouter>
     </div>
@@ -25,4 +22,3 @@ function App() {
 }
 
 export default App;
-
