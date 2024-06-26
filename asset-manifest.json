@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/vanshika-personal-portfolio/static/css/main.58cbb6d9.css",
+    "main.js": "/vanshika-personal-portfolio/static/js/main.a2249f0c.js",
+    "static/js/239.1e490e3c.chunk.js": "/vanshika-personal-portfolio/static/js/239.1e490e3c.chunk.js",
+    "static/js/213.1953daf4.chunk.js": "/vanshika-personal-portfolio/static/js/213.1953daf4.chunk.js",
+    "static/js/732.326526c1.chunk.js": "/vanshika-personal-portfolio/static/js/732.326526c1.chunk.js",
+    "static/js/453.d6dcb313.chunk.js": "/vanshika-personal-portfolio/static/js/453.d6dcb313.chunk.js",
+    "static/media/template.png": "/vanshika-personal-portfolio/static/media/template.77e4ee55ca7857c90203.png",
+    "static/media/Resume1.png": "/vanshika-personal-portfolio/static/media/Resume1.ccb94262f36ba96a8265.png",
+    "static/media/bootstrap-icons.woff?": "/vanshika-personal-portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/vanshika-personal-portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/newsman.jpg": "/vanshika-personal-portfolio/static/media/newsman.b6eb2cdd1fe4aaa9fa34.jpg",
+    "static/media/sidePic.jpg": "/vanshika-personal-portfolio/static/media/sidePic.72fb8073a143773a2a5e.jpg",
+    "static/media/AboutImage.png": "/vanshika-personal-portfolio/static/media/AboutImage.a7c70d214570e41e2abb.png",
+    "static/media/rbu.png": "/vanshika-personal-portfolio/static/media/rbu.2527f3213423ce37a6fa.png",
+    "static/media/insta.webp": "/vanshika-personal-portfolio/static/media/insta.d4513b2d8531c5e80391.webp",
+    "index.html": "/vanshika-personal-portfolio/index.html",
+    "main.58cbb6d9.css.map": "/vanshika-personal-portfolio/static/css/main.58cbb6d9.css.map",
+    "main.a2249f0c.js.map": "/vanshika-personal-portfolio/static/js/main.a2249f0c.js.map",
+    "239.1e490e3c.chunk.js.map": "/vanshika-personal-portfolio/static/js/239.1e490e3c.chunk.js.map",
+    "213.1953daf4.chunk.js.map": "/vanshika-personal-portfolio/static/js/213.1953daf4.chunk.js.map",
+    "732.326526c1.chunk.js.map": "/vanshika-personal-portfolio/static/js/732.326526c1.chunk.js.map",
+    "453.d6dcb313.chunk.js.map": "/vanshika-personal-portfolio/static/js/453.d6dcb313.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58cbb6d9.css",
+    "static/js/main.a2249f0c.js"
+  ]
+}
